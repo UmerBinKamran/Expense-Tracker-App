@@ -59,7 +59,7 @@ function renderTransactions() {
       '<div class="icon" onclick="handleDelete(' +
       t.id +
       ')">' +
-      '<img src="./icons/trash.svg" alt="trash">' +
+      '<i class="fa-regular fa-trash"></i>' +
       "</div>" +
       "</div>" +
       "</div>";
