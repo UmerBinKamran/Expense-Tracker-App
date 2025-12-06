@@ -54,12 +54,12 @@ function renderTransactions() {
       '<div class="icon" onclick="handleUpdate(' +
       t.id +
       ')">' +
-      '<img src="" alt="pen">' +
+      '<img width="30px" height="30px" src="./img/pen.png" alt="pen">' +
       "</div>" +
       '<div class="icon" onclick="handleDelete(' +
       t.id +
       ')">' +
-      '<i class="fa-regular fa-trash"></i>' +
+      '<img width="30px" height="30px" src="./img/trash.png" alt="trash">' +
       "</div>" +
       "</div>" +
       "</div>";
